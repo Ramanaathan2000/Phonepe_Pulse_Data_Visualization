@@ -1,4 +1,8 @@
-##### Data Visualization and Exploration : A User-Friendly Tool Using Streamlit and Plotly(https://github.com/Ramanaathan2000/Phone_pe-Pulse_Data_Visualization/assets/113617103/3fcb753b-fd84-4a5c-9e2a-6d304277ed84)
+##### Data Visualization and Exploration : A User-Friendly Tool Using Streamlit and Plotly
+
+
+
+https://github.com/Ramanaathan2000/Phone_pe-Pulse_Data_Visualization/assets/113617103/2daaf999-eb40-4fa4-824b-7cfe08d2c306
 
 
 
