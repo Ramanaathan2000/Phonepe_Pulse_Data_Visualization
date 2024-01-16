@@ -109,40 +109,40 @@ df = pd.DataFrame(columns1)
 To insert the datadrame into POSTGRESQL first I've created a new database and tables using "POSTGRESQL-connector-python" library in Python to connect to a POSTGRESQL database and insert the transformed data using SQL commands.
 
 ### sql connection
-   mydb = psycopg2.connect(host = "localhost",
-                        user = "username",
-                        password = "password",
-                        database = "phonepe_data",
-                        port = "5432"
-                        )
-   cursor = mydb.cursor()
+          mydb = psycopg2.connect(host = "localhost",
+                                  user = "username",
+                                  password = "password",
+                                  database = "phonepe_data",
+                                  port = "5432"
+                                  )
+          cursor = mydb.cursor()
    
 
 # Creating tables:
-   create_query7= '''CREATE TABLE if not exists table name (States varchar(50),
+         create_query7= '''CREATE TABLE if not exists table name (States varchar(50),
                                                          Years int,
                                                          Quarter int,
                                                          Insurance_type varchar(50),
                                                          Insurance_count bigint,
                                                          Insurance_amount bigint
                                                          )'''
-   cursor.execute(create_query7)
-   mydb.commit()
+          cursor.execute(create_query7)
+          mydb.commit()
 
 
 # Inserting query to insert values into tables
-   for index,row in table name.iterrows():
-       insert_query7 = '''INSERT INTO table name (States, Years, Quarter, Insurance_type, Insurance_count, Insurance_amount)
+         for index,row in table name.iterrows():
+              insert_query7 = '''INSERT INTO table name (States, Years, Quarter, Insurance_type, Insurance_count, Insurance_amount)
                                                         values(%s,%s,%s,%s,%s,%s)'''
-       values = (row["States"],
-                 row["Years"],
-                 row["Quarter"],
-                 row["Insurance_type"],
-                 row["Insurance_count"],
-                 row["Insurance_amount"]
-                )
-       cursor.execute(insert_query7,values)
-       mydb.commit()
+              values = (row["States"],
+                        row["Years"],
+                        row["Quarter"],
+                        row["Insurance_type"],
+                        row["Insurance_count"],
+                       row["Insurance_amount"]
+                      )
+              cursor.execute(insert_query7,values)
+              mydb.commit()
 
 
 # Step 5:
