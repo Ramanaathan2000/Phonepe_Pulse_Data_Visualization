@@ -1,4 +1,5 @@
-# Data Visualization and Exploration : A User-Friendly Tool Using Streamlit and Plotly (https://github.com/Ramanaathan2000/Phone_pe-Pulse_Data_Visualization/assets/113617103/91144cfb-4f54-40be-84f3-960c8af3b4d3)
+# Data Visualization and Exploration : A User-Friendly Tool Using Streamlit and Plotly"C:\Users\raman\OneDrive\Desktop\GUVI DOCX\New folder\phonepe\phonepe1\phonepe.jpg"
+
 
 ##### What is PhonePe Pulse?
 The PhonePe Pulse website showcases more than 2000+ Crore transactions by consumers on an interactive map of India. With over 45% market share, PhonePe's data is representative of the country's digital payment habits. The insights on the website and in the report have been drawn from two key sources - the entirety of PhonePe's transaction data combined with merchant and customer interviews. The report is available as a free download on the PhonePe Pulse website and GitHub.
@@ -95,7 +96,7 @@ df = pd.DataFrame(columns1)
 
 To insert the datadrame into POSTGRESQL first I've created a new database and tables using "POSTGRESQL-connector-python" library in Python to connect to a POSTGRESQL database and insert the transformed data using SQL commands.
 
-#sql connection
+### sql connection
 mydb = psycopg2.connect(host = "localhost",
                         user = "username",
                         password = "password",
@@ -114,6 +115,8 @@ create_query7= '''CREATE TABLE if not exists table name (States varchar(50),
                                                                       )'''
 cursor.execute(create_query7)
 mydb.commit()
+
+
 # Inserting query to insert values into tables
 for index,row in table name.iterrows():
     insert_query7 = '''INSERT INTO table name (States, Years, Quarter, Insurance_type, Insurance_count, Insurance_amount)
