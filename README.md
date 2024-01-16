@@ -3,7 +3,10 @@
 
 
 
-![phonepe](https://github.com/Ramanaathan2000/Phone_pe-Pulse_Data_Visualization/assets/113617103/bddf17ca-1273-41e5-80ee-011bd6e2767d)
+https://github.com/Ramanaathan2000/Phone_pe-Pulse_Data_Visualization/assets/113617103/bfa18a6b-ae2c-49a8-ae3d-5a6fa4feee84
+
+
+
 
 
 
@@ -20,7 +23,8 @@ The PhonePe Pulse website showcases more than 2000+ Crore transactions by consum
   5. json - (To load the json files)
   6. git.repo.base - (To clone the GitHub repository)
      
- https://github.com/Ramanaathan2000/Phone_pe- Pulse_Data_Visualization/assets/113617103/55aeacff-ae69-40ce-9fc2-85e4136201b6
+ 
+![phonepe](https://github.com/Ramanaathan2000/Phone_pe-Pulse_Data_Visualization/assets/113617103/bddf17ca-1273-41e5-80ee-011bd6e2767d)
 
 #### Workflow
 # Importing the Libraries:
@@ -115,12 +119,12 @@ cursor = mydb.cursor()
 
 # Creating tables:
 create_query7= '''CREATE TABLE if not exists table name (States varchar(50),
-                                                                      Years int,
-                                                                      Quarter int,
-                                                                      Insurance_type varchar(50),
-                                                                      Insurance_count bigint,
-                                                                      Insurance_amount bigint
-                                                                      )'''
+                                                         Years int,
+                                                         Quarter int,
+                                                         Insurance_type varchar(50),
+                                                         Insurance_count bigint,
+                                                         Insurance_amount bigint
+                                                         )'''
 cursor.execute(create_query7)
 mydb.commit()
 
