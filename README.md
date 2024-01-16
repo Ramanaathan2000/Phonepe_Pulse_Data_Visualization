@@ -171,7 +171,7 @@ To create colourful and insightful dashboard I've used Plotly libraries in Pytho
 
 # Step 6:
 # Data retrieval:
-Finally if needed Using the "postgresql-connector-python" library to connect to the postgreSQL database and fetch the data into a Pandas dataframe and displayed my output in streamlit.
+Finally if needed Using the "postgresql-connector-python" library to connect to the POSTGRESQL database and fetch the data into a Pandas dataframe and displayed my output in streamlit.
 
 
 
