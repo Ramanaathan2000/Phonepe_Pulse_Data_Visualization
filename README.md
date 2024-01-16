@@ -1,4 +1,4 @@
-##### Data Visualization and Exploration : A User-Friendly Tool Using Streamlit and Plotly
+# Data Visualization and Exploration : A User-Friendly Tool Using Streamlit and Plotly
 
 
 
@@ -10,11 +10,11 @@ https://github.com/Ramanaathan2000/Phone_pe-Pulse_Data_Visualization/assets/1136
 
 
 
-##### What is PhonePe Pulse?
+# What is PhonePe Pulse?
 The PhonePe Pulse website showcases more than 2000+ Crore transactions by consumers on an interactive map of India. With over 45% market share, PhonePe's data is representative of the country's digital payment habits. The insights on the website and in the report have been drawn from two key sources - the entirety of PhonePe's transaction data combined with merchant and customer interviews. The report is available as a free download on the PhonePe Pulse website and GitHub.
 
 
-##### Libraries and Modules needed for the project!
+# Libraries and Modules needed for the project!
 
   1. Plotly - (To plot and visualize the data)
   2. Pandas - (To Create a DataFrame with the scraped data)
@@ -26,7 +26,7 @@ The PhonePe Pulse website showcases more than 2000+ Crore transactions by consum
  
 ![phonepe](https://github.com/Ramanaathan2000/Phone_pe-Pulse_Data_Visualization/assets/113617103/bddf17ca-1273-41e5-80ee-011bd6e2767d)
 
-##### Workflow
+# Workflow
 # Importing the Libraries:
 
 1.Importing the libraries. As I have already mentioned above the list of libraries/modules needed for the project. First we have to import all those libraries. If the libraries are not installed already use the below piece of code to install.
