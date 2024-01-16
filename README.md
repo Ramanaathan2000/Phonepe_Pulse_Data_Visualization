@@ -1,5 +1,4 @@
-# Phonepe Pulse Data Visualization(https://github.com/Ramanaathan2000/Phone_pe-Pulse_Data_Visualization/assets/113617103/0a4cfef6-45e0-4b23-a7a3-e1a1ed19cc13)
-tion and Exploration : A User-Friendly Tool Using Streamlit and Plotly
+##### Data Visualization and Exploration : A User-Friendly Tool Using Streamlit and Plotly(https://github.com/Ramanaathan2000/Phone_pe-Pulse_Data_Visualization/assets/113617103/3fcb753b-fd84-4a5c-9e2a-6d304277ed84)
 
 
 
