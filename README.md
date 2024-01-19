@@ -144,7 +144,6 @@ To insert the datadrame into POSTGRESQL first I've created a new database and ta
               cursor.execute(insert_query7,values)
               mydb.commit()
 
-
 # Step 5:
 
 # Dashboard creation:
@@ -172,7 +171,6 @@ To create colourful and insightful dashboard I've used Plotly libraries in Pytho
 # Step 6:
 # Data retrieval:
 Finally if needed Using the "postgresql-connector-python" library to connect to the POSTGRESQL database and fetch the data into a Pandas dataframe and displayed my output in streamlit.
-
 
 # Contact
 # Name: Ramanaathan S
